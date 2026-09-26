@@ -16,7 +16,7 @@ A modern and responsive **Currency Converter** built with **React.js** that allo
 
 ### Currency Converter
 
-![Currency Converter Screenshot](./screenshot.png)
+![Currency Converter Screenshot](./pic.png)
 
 The application provides a clean interface for selecting currencies, entering amounts, converting values, and swapping currencies.
 
