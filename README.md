@@ -1,16 +1,66 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+💱 Currency Converter
+A modern and responsive Currency Converter built with React.js that allows users to convert amounts between different currencies using real-time exchange rate data.
+✨ Features
+🌍 Convert between multiple currencies
+🔄 Swap source and target currencies easily
+⚡ Real-time exchange rate data
+🎨 Modern blue & pink themed UI
+📱 Responsive design
+🧩 Reusable React components
+💰 Simple and easy-to-use interface
+📸 Screenshots
+Currency Converter
 
-Currently, two official plugins are available:
+The application provides a clean interface for selecting currencies, entering amounts, converting values, and swapping currencies.
+🛠️ Tech Stack
+React.js – Frontend development
+JavaScript – Application logic
+Tailwind CSS – Styling and UI design
+Vite – Development environment
+Currency API – Real-time exchange rate data
+🔧 How It Works
+The application fetches exchange-rate data based on the selected source currency.
+Users can:
+Enter the amount they want to convert.
+Select the source currency.
+Select the target currency.
+Click Convert to get the converted amount.
+Use the Swap button to switch the currencies.
+🚀 Run Locally
+Clone the repository:
+git clone https://github.com/your-username/Currency-Converter.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Go to the project folder:
+cd Currency-Converter
 
-## React Compiler
+Install dependencies:
+npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Start the development server:
+npm run dev
 
-## Expanding the ESLint configuration
+The application will now run locally using Vite.
+📂 Project Structure
+Currency-Converter/
+│
+├── public/
+├── src/
+│   ├── components/
+│   │   └── InputBox.jsx
+│   ├── hooks/
+│   │   └── useCurrencyInfo.js
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── screenshot.png
+├── package.json
+└── README.md
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👨‍💻 Author
+Kokil Sharma
+Computer Science Student
+⭐ If you like this project, feel free to star the repository!
+
+
